@@ -472,7 +472,7 @@ static int __init init_pstore_fs(void)
 
 #ifdef CONFIG_PSTORE_LAST_KMSG
 	struct proc_dir_entry *last_kmsg_entry = NULL;
-#endi
+#endif
 
 	/* Create a convenient mount point for people to access pstore */
 	pstore_kobj = kobject_create_and_add("pstore", fs_kobj);
